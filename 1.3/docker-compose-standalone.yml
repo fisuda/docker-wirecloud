@@ -4,7 +4,7 @@ services:
 
     wirecloud:
         restart: always
-        image: fiware/wirecloud:1.3
+        image: fisuda/wirecloud:1.3
         ports:
             - 80:8000
         environment:
